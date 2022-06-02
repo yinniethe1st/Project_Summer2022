@@ -1,0 +1,21 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+        int num1 = 19;
+        int num2 = 20;
+
+      if (num1 < num2) 
+      {
+        Console.WriteLine("20 is greater than 18");
+      } else {
+        Console.WriteLine("18 is smaller than 18");
+
+      }
+    }
+  }
+}

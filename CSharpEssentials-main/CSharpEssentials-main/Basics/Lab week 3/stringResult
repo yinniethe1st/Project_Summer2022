@@ -1,0 +1,14 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int time = 7;
+      string result = (time < 8) ? "You're early" : "You're late";
+      Console.WriteLine(result);
+    }
+  }
+}

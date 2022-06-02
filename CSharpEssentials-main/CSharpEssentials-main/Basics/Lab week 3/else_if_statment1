@@ -1,0 +1,20 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      double gpa = 2.0;
+      if (gpa < 3) 
+      {
+        Console.WriteLine("Try better next semester!");
+      } 
+      else 
+      {
+        Console.WriteLine("Good Job this semester");
+      }
+    }
+  }
+}

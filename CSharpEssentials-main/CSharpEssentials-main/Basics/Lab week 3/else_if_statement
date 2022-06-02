@@ -1,0 +1,24 @@
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int degree = 59;
+      if (degree < 85 && degree > 75) 
+      {
+        Console.WriteLine("Nice weather today");
+      } 
+      else if (degree > 80 && degree < 100) 
+      {
+        Console.WriteLine("Hot weather today");
+      } 
+      else 
+      {
+        Console.WriteLine("It's chilli!");
+      }
+    }
+  }
+}
