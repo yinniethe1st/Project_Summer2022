@@ -2,20 +2,26 @@ using System;
 
 public class Program
 {
+    public Operations myOpertor;
+
     public void Main() 
     {
+        myOpertor = new Operations();
+
         Console.WriteLine("Welcome");
-        DoMath(10, 89);
-            DoMath(30, 45);
-                DoMath(100, 13);
-                    Compare(4,3);
-                    Compare(3,4);
-                        checkPassword("iUOI");
-                        checkPassword("OU812");
+        myOpertor.DoMath(10, 89);
+            myOpertor.DoMath(30, 45);
+                myOpertor.DoMath(100, 13);
+                    myOpertor.Compare(4,3);
+                    myOpertor.Compare(3,4);
+                        myOpertor.checkPassword("iUOI");
+                        myOpertor.checkPassword("OU812");
 
                         
-                
     }
+}
+
+public class Operations {
     public void DoMath(int value, int value2) {
         var number = value + value2 ;
         Console.WriteLine(number);
