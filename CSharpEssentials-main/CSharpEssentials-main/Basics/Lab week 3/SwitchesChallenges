@@ -1,0 +1,39 @@
+using System;
+ 
+namespace Conditional
+{
+    class SwitchCase
+    {
+        public static void Main(string[] args)
+        {
+            int num = 4;
+            switch(num)
+            {
+                case 1:
+                    Console.WriteLine("You will be featured as the strongest superhero in the next Marvel movie");
+                    break;
+                case 2:
+                    Console.WriteLine("You will win millions of dollars from a long lost ucle in Nigeria");
+                    break;
+                case 3:
+                    Console.WriteLine("You will be the next person who live and build a family on Mars");
+                    break;
+                case 4:
+                    Console.WriteLine("You will become the richest man in the world from your own business");
+                    break;
+                case 5:
+                    Console.WriteLine("You will recieve an offer letter to open a black dimanond credit card from American Express");
+                    break;
+                 case 6:
+                    Console.WriteLine("You will recieve an offer letter to open a black dimanond credit card from American Express");
+                    break;
+                 case 7:
+                    Console.WriteLine("You will travel around the world in a mini van and a yatch");
+                    break;                
+                 case 8:
+                    Console.WriteLine("You will end the world poverty by the work from your non-profit organization");
+                    break;               
+            }
+        }
+    }
+}
